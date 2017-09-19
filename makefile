@@ -1,6 +1,6 @@
-arithmeticTree.exe	:	arithmeticTree.o
-	g++ arithmeticTree.o -std=c++11 -o arithmeticTree.exe
+ReversePolishNotation.exe	:	ReversePolishNotation.o
+	g++ ReversePolishNotation.o -std=c++11 -o ReversePolishNotation.exe
 
-arithmeticTree.o	:	arithmeticTree.cpp arithmeticTree.h
-	g++ -std=c++11 -c arithmeticTree.cpp
+ReversePolishNotation.o	:	ReversePolishNotation.cpp ReversePolishNotation.h
+	g++ -std=c++11 -c ReversePolishNotation.cpp
 	
